@@ -4,7 +4,14 @@
     "themes": [
       {
         "name": "Propiedades de los exponentes",
-        "value": "prop_exp"
+        "value": "prop_exp",
+        "functions": [
+          "Producto",
+          "Cociente",
+          "Exponente cero",
+          "Exponente Negativo",
+          "Potencia elevada a una potencia"
+        ]
       },
       {
         "name": "Propiedades de los radicales",
