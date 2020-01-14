@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Álgebra",
+    "themes": [
+      {
+        "name": "Propiedades de los exponentes",
+        "value": "prop_exp"
+      },
+      {
+        "name": "Propiedades de los radicales",
+        "value": "prop_rad"
+      },
+      {
+        "name": "Operaciones con polinomios",
+        "value": "op_pol"
+      }
+    ]
+  },
+  {
+    "title": "Geometría",
+    "themes": [
+      { "name": "Ángulos en un polígono", "value": "ang_pol" },
+      {
+        "name": "Área y perímetro de cuadriláteros",
+        "value": "a_per_cuad"
+      },
+      {
+        "name": "Área y perímetro de triángulos",
+        "value": "a_per_tri"
+      }
+    ]
+  }
+]
