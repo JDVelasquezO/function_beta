@@ -3,17 +3,12 @@
     <v-container>
       <h1>{{ title }}</h1>
       <p>{{ content }}</p>
-      <!-- <vue-mathjax :formula="formula"></vue-mathjax> -->
 
       <v-card class="d-inline-block mx-auto">
         <v-container>
           <v-row justify="space-between">
             <v-col cols="auto">
-              <v-img
-                height="400"
-                width="400"
-                src="https://matematicasmas.files.wordpress.com/2012/04/propiedades-de-las-potencias1.jpg"
-              ></v-img>
+              <v-img height="350" width="350" :src="src"></v-img>
             </v-col>
 
             <v-col cols="auto" class="text-center pl-0">
@@ -57,8 +52,7 @@ export default {
       value: "",
       title: "",
       content: "",
-      formula: "",
-      function: ""
+      src: ""
     };
   },
   mounted() {
@@ -66,10 +60,14 @@ export default {
     switch (this.value) {
       case "prop_exp":
         this.title = "Propiedades de los exponentes";
-        this.formula = "$$a^{m}a^{n} = a^{m+n}$$";
+        // this.formula = "$$a^{m}a^{n} = a^{m+n}$$";
         break;
       case "prop_rad":
         this.title = "Propiedades de los radicales";
+        break;
+      case "rul_bas":
+        this.title = "Reglas Básicas de Integración";
+        this.src = "function_images\\integral\\basic_rules.png";
         break;
       default:
         this.title = "Ruta no identificada";

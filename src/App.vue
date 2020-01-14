@@ -16,13 +16,19 @@
     <v-content>
       <router-view />
     </v-content>
+
+    <FooterComponent />
   </v-app>
 </template>
 
 <script>
-export default {
-  name: "App",
+import FooterComponent from "@/components/FooterComponent.vue";
 
+export default {
+  components: {
+    FooterComponent
+  },
+  name: "App",
   data: () => ({
     //
   })

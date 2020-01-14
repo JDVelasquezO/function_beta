@@ -4,14 +4,7 @@
     "themes": [
       {
         "name": "Propiedades de los exponentes",
-        "value": "prop_exp",
-        "functions": [
-          "Producto",
-          "Cociente",
-          "Exponente cero",
-          "Exponente Negativo",
-          "Potencia elevada a una potencia"
-        ]
+        "value": "prop_exp"
       },
       {
         "name": "Propiedades de los radicales",
@@ -26,7 +19,10 @@
   {
     "title": "Geometría",
     "themes": [
-      { "name": "Ángulos en un polígono", "value": "ang_pol" },
+      { 
+        "name": "Ángulos en un polígono", 
+        "value": "ang_pol",
+      },
       {
         "name": "Área y perímetro de cuadriláteros",
         "value": "a_per_cuad"
@@ -34,6 +30,49 @@
       {
         "name": "Área y perímetro de triángulos",
         "value": "a_per_tri"
+      }
+    ]
+  },
+  {
+    "title": "Cálculo Integral",
+    "themes": 
+    [
+      {
+        "name": "Reglas básicas para integrar",
+        "value": "rul_bas"
+      },
+      {
+        "name": "Cambio de variable"
+      },
+      {
+        "name": "Integral de funciones trigonométricas"
+      },
+      {
+        "name": "Integrales que dan como resultado trigonométricas inversas"
+      },
+      {
+        "name": "Teorema Fundamental del Cálculo"
+      },
+      {
+        "name": "Integración por partes"
+      },
+      {
+        "name": "Integración por sustitución trigonométrica"
+      },
+      {
+        "name": "Integración por fracciones parciales"
+      },
+      {
+        "name": "Integración por fracción impropia"
+      },
+      {
+        "name": "Integración por funciones trigonométricas"
+      },
+      {
+        "name": "Integral de funciones trigonométricas"
+      },
+      {
+        "name": "Sustituciones directas"
       }
     ]
   }
